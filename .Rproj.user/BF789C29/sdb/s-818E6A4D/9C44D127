@@ -1,0 +1,18 @@
+{
+    "contents" : "allprofs <- read.csv(\"Data.csv\")\n\nyearorder <- order( allprofs$year_of_grad )\nprint(allprofs[yearorder,])\n\ndepartmentorder <- order( allprofs$department )\nprint(allprofs[departmentorder,])\n\ngradyears <- allprofs$year_of_grad\nmeangradyear <- mean(gradyears)\nmeanage <- 2014 - mean(gradyears) + 22\nprint(meanage)\n",
+    "created" : 1454275067374.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3776638064",
+    "id" : "9C44D127",
+    "lastKnownWriteTime" : 1454275199,
+    "path" : "~/R/hutchinhillproject/R/main.R",
+    "project_path" : "R/main.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

@@ -114,7 +114,7 @@ allprofs <- rbind( allprofs, prof )
 
 name <- "Donald de B. Beaver"
 year_of_grad <- 1958
-department <- "History of Science"
+department <- "History"
 prof <- data.frame(name,year_of_grad,department)
 allprofs <- rbind( allprofs, prof )
 
@@ -192,7 +192,7 @@ allprofs <- rbind( allprofs, prof )
 
 name <- "Ralph M. Bradburd"
 year_of_grad <- 1970
-department <- "Political Economy"
+department <- "Economics"
 prof <- data.frame(name,year_of_grad,department)
 allprofs <- rbind( allprofs, prof )
 
@@ -324,7 +324,7 @@ allprofs <- rbind( allprofs, prof )
 
 name <- "Kerry A. Christensen"
 year_of_grad <- 1981
-department <- "Ancient Languages"
+department <- "Classics"
 prof <- data.frame(name,year_of_grad,department)
 allprofs <- rbind( allprofs, prof )
 
@@ -414,7 +414,7 @@ allprofs <- rbind( allprofs, prof )
 
 name <- "Annelle M. Curulla"
 year_of_grad <- 1999
-department <- "French"
+department <- "Romance Languages"
 prof <- data.frame(name,year_of_grad,department)
 allprofs <- rbind( allprofs, prof )
 
@@ -480,13 +480,13 @@ allprofs <- rbind( allprofs, prof )
 
 name <- "Eva M. Dessein"
 year_of_grad <- 2001
-department <- "French"
+department <- "Romance Languages"
 prof <- data.frame(name,year_of_grad,department)
 allprofs <- rbind( allprofs, prof )
 
 name <- "David P. Dethier"
 year_of_grad <- 1972
-department <- "Geology"
+department <- "Geosciences"
 prof <- data.frame(name,year_of_grad,department)
 allprofs <- rbind( allprofs, prof )
 
@@ -498,7 +498,7 @@ allprofs <- rbind( allprofs, prof )
 
 name <- "Charles B. Dew"
 year_of_grad <- 1958
-department <- "American History"
+department <- "History"
 prof <- data.frame(name,year_of_grad,department)
 allprofs <- rbind( allprofs, prof )
 
@@ -534,13 +534,13 @@ allprofs <- rbind( allprofs, prof )
 
 name <- "Susan Dunn"
 year_of_grad <- 1966
-department <- "Arts and Humanities"
+department <- "Leadership Studies"
 prof <- data.frame(name,year_of_grad,department)
 allprofs <- rbind( allprofs, prof )
 
 name <- "David B. Edwards"
 year_of_grad <- 1975
-department <- "Social Sciences"
+department <- "Anthropology"
 prof <- data.frame(name,year_of_grad,department)
 allprofs <- rbind( allprofs, prof )
 
@@ -654,7 +654,7 @@ allprofs <- rbind( allprofs, prof )
 
 name <- "Robert L. Fisher"
 year_of_grad <- 1970
-department <- "Athletics"
+department <- "Physical Education"
 prof <- data.frame(name,year_of_grad,department)
 allprofs <- rbind( allprofs, prof )
 
@@ -696,7 +696,7 @@ allprofs <- rbind( allprofs, prof )
 
 name <- "Jennifer L. French"
 year_of_grad <- 1995
-department <- "Spanish"
+department <- "Romance Languages"
 prof <- data.frame(name,year_of_grad,department)
 allprofs <- rbind( allprofs, prof )
 
@@ -960,7 +960,7 @@ allprofs <- rbind( allprofs, prof )
 
 name <- "Joy A. James"
 year_of_grad <- 1980
-department <- "Humanities"
+department <- "Political Science"
 prof <- data.frame(name,year_of_grad,department)
 allprofs <- rbind( allprofs, prof )
 
@@ -978,7 +978,7 @@ allprofs <- rbind( allprofs, prof )
 
 name <- "Cathy M. Johnson"
 year_of_grad <- 1979
-department <- "Politial Science"
+department <- "Political Science"
 prof <- data.frame(name,year_of_grad,department)
 allprofs <- rbind( allprofs, prof )
 
@@ -1044,13 +1044,13 @@ allprofs <- rbind( allprofs, prof )
 
 name <- "Lawrence J. Kaplan"
 year_of_grad <- 1964
-department <- "Natural Sciences"
+department <- "Chemistry"
 prof <- data.frame(name,year_of_grad,department)
 allprofs <- rbind( allprofs, prof )
 
 name <- "Paul M. Karabinos"
 year_of_grad <- 1975
-department <- "Natural Sciences"
+department <- "Geosciences"
 prof <- data.frame(name,year_of_grad,department)
 allprofs <- rbind( allprofs, prof )
 
@@ -1170,7 +1170,7 @@ allprofs <- rbind( allprofs, prof )
 
 name <- "Cornelius C. Kubler"
 year_of_grad <- 1972
-department <- "Asian Studies"
+department <- "Chinese"
 prof <- data.frame(name,year_of_grad,department)
 allprofs <- rbind( allprofs, prof )
 
@@ -1320,7 +1320,7 @@ allprofs <- rbind( allprofs, prof )
 
 name <- "Michael D. MacDonald"
 year_of_grad <- 1972
-department <- "International Relations"
+department <- "Political Science"
 prof <- data.frame(name,year_of_grad,department)
 allprofs <- rbind( allprofs, prof )
 
@@ -1386,13 +1386,13 @@ allprofs <- rbind( allprofs, prof )
 
 name <- "Brian Martin"
 year_of_grad <- 1993
-department <- "French"
+department <- "Romance Languages"
 prof <- data.frame(name,year_of_grad,department)
 allprofs <- rbind( allprofs, prof )
 
 name <- "Martha J. Marvin"
 year_of_grad <- 1984
-department <- "Neuroscience"
+department <- "Biology"
 prof <- data.frame(name,year_of_grad,department)
 allprofs <- rbind( allprofs, prof )
 
@@ -1458,7 +1458,7 @@ allprofs <- rbind( allprofs, prof )
 
 name <- "Karen R. Merrill"
 year_of_grad <- 1986
-department <- "American Culture"
+department <- "History"
 prof <- data.frame(name,year_of_grad,department)
 allprofs <- rbind( allprofs, prof )
 
@@ -1554,7 +1554,7 @@ allprofs <- rbind( allprofs, prof )
 
 name <- "Mara Naaman"
 year_of_grad <- 1996
-department <- "Arabi"
+department <- "Arabic"
 prof <- data.frame(name,year_of_grad,department)
 allprofs <- rbind( allprofs, prof )
 
@@ -1686,7 +1686,7 @@ allprofs <- rbind( allprofs, prof )
 
 name <- "Katarzyna M. Pieprzak"
 year_of_grad <- 1995
-department <- "French"
+department <- "Romance Languages"
 prof <- data.frame(name,year_of_grad,department)
 allprofs <- rbind( allprofs, prof )
 
@@ -1698,7 +1698,7 @@ allprofs <- rbind( allprofs, prof )
 
 name <- "Jonathan M. Pitcher"
 year_of_grad <- 1994
-department <- "Spanish"
+department <- "Romance Languages"
 prof <- data.frame(name,year_of_grad,department)
 allprofs <- rbind( allprofs, prof )
 
@@ -1722,7 +1722,7 @@ allprofs <- rbind( allprofs, prof )
 
 name <- "Lawrence E. Raab"
 year_of_grad <- 1968
-department <- "Poetry"
+department <- "English"
 prof <- data.frame(name,year_of_grad,department)
 allprofs <- rbind( allprofs, prof )
 
@@ -1746,7 +1746,7 @@ allprofs <- rbind( allprofs, prof )
 
 name <- "Mark T. Reinhardt"
 year_of_grad <- 1983
-department <- "American Civilization"
+department <- "American Studies"
 prof <- data.frame(name,year_of_grad,department)
 allprofs <- rbind( allprofs, prof )
 
@@ -1764,7 +1764,7 @@ allprofs <- rbind( allprofs, prof )
 
 name <- "Kathryn L. Ringer-Hilfinger"
 year_of_grad <- 2003
-department <- "Spanish"
+department <- "Romance Languages"
 prof <- data.frame(name,year_of_grad,department)
 allprofs <- rbind( allprofs, prof )
 
@@ -1920,7 +1920,7 @@ allprofs <- rbind( allprofs, prof )
 
 name <- "James R. Shepard"
 year_of_grad <- 1978
-department <- "American History"
+department <- "History"
 prof <- data.frame(name,year_of_grad,department)
 allprofs <- rbind( allprofs, prof )
 
@@ -2172,7 +2172,7 @@ allprofs <- rbind( allprofs, prof )
 
 name <- "Elizabeth D. Urban"
 year_of_grad <- 2004
-department <- "Middle Eastern History"
+department <- "History"
 prof <- data.frame(name,year_of_grad,department)
 allprofs <- rbind( allprofs, prof )
 
@@ -2208,7 +2208,7 @@ allprofs <- rbind( allprofs, prof )
 
 name <- "Christopher M. Waters"
 year_of_grad <- 1977
-department <- "Modern European History"
+department <- "History"
 prof <- data.frame(name,year_of_grad,department)
 allprofs <- rbind( allprofs, prof )
 
@@ -2238,7 +2238,7 @@ allprofs <- rbind( allprofs, prof )
 
 name <- "Alan E. White"
 year_of_grad <- 1972
-department <- "Philosphy"
+department <- "Philosophy"
 prof <- data.frame(name,year_of_grad,department)
 allprofs <- rbind( allprofs, prof )
 
@@ -2262,7 +2262,7 @@ allprofs <- rbind( allprofs, prof )
 
 name <- "Reinhard A. Wobus"
 year_of_grad <- 1962
-department <- "Geology"
+department <- "Geosciences"
 prof <- data.frame(name,year_of_grad,department)
 allprofs <- rbind( allprofs, prof )
 
@@ -2353,5 +2353,14 @@ allprofs <- rbind( allprofs, prof )
 
 
 print(allprofs)
+
 yearorder <- order( allprofs$year_of_grad )
 print(allprofs[yearorder,])
+
+departmentorder <- order( allprofs$department )
+print(allprofs[departmentorder,])
+
+gradyears <- allprofs$year_of_grad
+meangradyear <- mean(gradyears)
+meanage <- 2014 - mean(gradyears) + 22
+print(meanage)
