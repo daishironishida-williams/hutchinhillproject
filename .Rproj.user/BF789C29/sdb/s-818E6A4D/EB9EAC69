@@ -1,0 +1,17 @@
+{
+    "contents" : "Package: hutchinhillproject\nTitle: A calculation of the Average Age of the Williams College Faculty\nVersion: 0.1\nDate: 2016-01-30\nAuthors@R: person(\"Daishiro\", \"Nishida\", email = \"dn6@williams.edu\", role = c(\"aut\", \"cre\"))\nDescription: This package calculates the average age of the Williams College\n    faculty. It also includes a paper which documents this investigation.\nLicense: What license is it under?\nLazyData: TRUE\nRoxygenNote: 5.0.1\nSuggests: knitr,\n    rmarkdown\nVignetteBuilder: knitr\n",
+    "created" : 1454282010603.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3734429925",
+    "id" : "EB9EAC69",
+    "lastKnownWriteTime" : 1454283345,
+    "path" : "~/R/hutchinhillproject/DESCRIPTION",
+    "project_path" : "DESCRIPTION",
+    "properties" : {
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "type" : "dcf"
+}

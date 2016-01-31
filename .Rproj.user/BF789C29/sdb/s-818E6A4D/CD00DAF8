@@ -1,0 +1,17 @@
+{
+    "contents" : "\\name{main}\n\\alias{main}\n\\title{main}\n\\usage{\n}\n\\description{\nPrints all results from the calculations.\n}\n\\examples{\n}\n",
+    "created" : 1454283301086.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1755992828",
+    "id" : "CD00DAF8",
+    "lastKnownWriteTime" : 1454283307,
+    "path" : "~/R/hutchinhillproject/man/main.Rd",
+    "project_path" : "man/main.Rd",
+    "properties" : {
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "type" : "r_doc"
+}
