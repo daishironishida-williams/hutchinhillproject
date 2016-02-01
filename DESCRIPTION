@@ -5,10 +5,9 @@ Date: 2016-01-30
 Authors@R: person("Daishiro", "Nishida", email = "dn6@williams.edu", role = c("aut", "cre"))
 Description: This package calculates the average age of the Williams College
     faculty. It also includes a paper which documents this investigation.
-License: What license is it under?
+License: GPL-3
 LazyData: TRUE
 RoxygenNote: 5.0.1
 Suggests: knitr,
-    rmarkdown,
-    qpdf
+    ggplot2
 VignetteBuilder: knitr

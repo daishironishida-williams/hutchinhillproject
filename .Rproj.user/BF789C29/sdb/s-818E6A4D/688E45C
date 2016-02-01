@@ -1,12 +1,12 @@
 {
-    "contents" : "\\documentclass{article}\n\n\\begin{document}\n\n\\title{What is the Average Age of the Williams College Faculty?}\n\n\\author{Daishiro Nishida '18}\n\n\\maketitle\n\nThis paper investigates the average age of the Williams College faculty.\\\\\n\nThe average age of the Williams College faculty is 49.0 years.\nThe youngest member of the faculty is Professor Sarah A. Mirseydi in the Art Department, who received her BA in the year 2011.\nThe oldest members of the faculty are Professor Donald de B. Beaver and Professor Charles B. Dew, both in the History Department, who received their BA in the year 1958.\n\n\n\n\\end{document}\n",
+    "contents" : "\\documentclass{article}\n\n\\begin{document}\n\n\\title{What is the Average Age of the Williams College Faculty?}\n\n\\author{Daishiro Nishida '18}\n\n\\maketitle\n\nThis paper investigates the average age of the Williams College faculty.\\\\\n\nThe average age of the Williams College faculty is 49.0 years.\nThe youngest member of the faculty is Professor Sarah A. Mirseydi in the Art Department, who received her BA in the year 2011.\nThe oldest members of the faculty are Professor Donald de B. Beaver and Professor Charles B. Dew, both in the History Department, who received their BA in the year 1958.\n\n\n\n\n\n\\end{document}\n",
     "created" : 1454283567522.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "1947861795",
+    "hash" : "1714254028",
     "id" : "688E45C",
-    "lastKnownWriteTime" : 1454283590,
+    "lastKnownWriteTime" : 1454284294,
     "path" : "~/R/hutchinhillproject/vignettes/my-vignette.Rnw",
     "project_path" : "vignettes/my-vignette.Rnw",
     "properties" : {
