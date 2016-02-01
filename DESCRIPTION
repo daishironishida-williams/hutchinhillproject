@@ -8,6 +8,7 @@ Description: This package calculates the average age of the Williams College
 License: GPL-3
 LazyData: TRUE
 RoxygenNote: 5.0.1
+Imports: ggplot2
 Suggests: knitr,
-    ggplot2
+    testthat
 VignetteBuilder: knitr
