@@ -10,6 +10,8 @@ get_plot2()
 Prints a graph showing age distributions in each department
 }
 \examples{
+library(ggplot2)
+read_data()
 get_plot2()
 }
 

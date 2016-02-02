@@ -4,7 +4,7 @@
 #' @export
 read_data <- function() {
 
-  allprofs <- read.csv( file.path("data","Data.csv") )
+  allprofs <- read.csv( file.path("data","data.csv") )
 
   ages <- 2014 - allprofs$year_of_BA + 22
   allprofs <- cbind(allprofs, ages)
@@ -31,6 +31,7 @@ read_data <- function() {
 
 #' Prints out a table of all professors, ordered by age
 #' @examples
+#' read_data()
 #' get_table()
 #' @export
 get_table <- function(){
@@ -44,8 +45,41 @@ get_table <- function(){
 
 }
 
+#' Prints the mean age in each division
+#' @examples
+#' library(ggplot2)
+#' read_data()
+#' get_mean()
+#' @export
+get_mean <- function() {
+
+  div1_profs <- allprofs[allprofs$division == " 1",]
+  div2_profs <- allprofs[allprofs$division == " 2",]
+  div3_profs <- allprofs[allprofs$division == " 3",]
+  pe_profs <- allprofs[allprofs$division == " PE",]
+
+  div1_mean <- mean( div1_profs$age )
+  assign("div1_mean", div1_mean, envir = .GlobalEnv)
+  cat("Div.I Mean = ", div1_mean, "\n")
+
+  div2_mean <- mean( div2_profs$age )
+  assign("div2_mean", div2_mean, envir = .GlobalEnv)
+  cat("Div.II Mean = ", div2_mean, "\n")
+
+  div3_mean <- mean( div3_profs$age )
+  assign("div3_mean", div3_mean, envir = .GlobalEnv)
+  cat("Div.III Mean = ", div3_mean, "\n")
+
+  pe_mean <- mean( pe_profs$age )
+  assign("pe_mean", pe_mean, envir = .GlobalEnv)
+  cat("PE Mean = ", pe_mean, "\n")
+
+}
+
 #' Prints a histogram with the divisions that the professors belong to
 #' @examples
+#' library(ggplot2)
+#' read_data()
 #' get_plot1()
 #' @export
 get_plot1 <- function(){
@@ -56,15 +90,19 @@ get_plot1 <- function(){
 
 #' Prints a graph showing age distributions in each department
 #' @examples
+#' library(ggplot2)
+#' read_data()
 #' get_plot2()
 #' @export
 get_plot2 <- function(){
-  ggplot(allprofs, aes(department, ages)) + geom_boxplot() + scale_x_discrete(labels= dep_label) + theme(
-    axis.text.x = element_text(angle=90, vjust=1))
+  ggplot(allprofs, aes(department, ages)) + geom_boxplot( aes( fill = division ) ) + scale_x_discrete(
+    labels= dep_label) + theme( axis.text.x = element_text(angle=90, vjust=1))
 }
 
 #' Prints a scatter plot of ages and the year the professor received the last degree
 #' @examples
+#' library(ggplot2)
+#' read_data()
 #' get_plot3()
 #' @export
 get_plot3 <- function(){

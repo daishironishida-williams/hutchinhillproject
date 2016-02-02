@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.16)  2 FEB 2016 11:49
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.16)  2 FEB 2016 18:48
 entering extended mode
 **my-vignette.tex
 (C:\Users\daishiro\Documents\R\hutchinhillproject\vignettes\my-vignette.tex
@@ -86,18 +86,18 @@ Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
 tim
 )
 (C:\Users\daishiro\Documents\R\hutchinhillproject\vignettes\my-vignette.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -114,99 +114,153 @@ LaTeX Font Info:    ... okay on input line 52.
 \everyMPtoPDFconversion=\toks16
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 56.
+(Font)              <12> on input line 58.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 56.
+(Font)              <8> on input line 58.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 56.
+(Font)              <6> on input line 58.
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
-
- []
-
-Package color Info: Redefining color shadecolor on input line 63.
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
+Underfull \hbox (badness 10000) in paragraph at lines 60--65
 
  []
 
-Package color Info: Redefining color shadecolor on input line 74.
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--72
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--78
+
+ []
+
+[1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 75.
+(Font)              <7> on input line 94.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 75.
+(Font)              <5> on input line 94.
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--96
+Underfull \hbox (badness 10000) in paragraph at lines 89--96
+
+ []
+
+Package color Info: Redefining color shadecolor on input line 101.
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--116
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--98
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
 
  []
 
-Package color Info: Redefining color shadecolor on input line 100.
+Package color Info: Redefining color shadecolor on input line 120.
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--122
+Underfull \hbox (badness 10000) in paragraph at lines 139--142
 
  []
 
-Package color Info: Redefining color shadecolor on input line 126.
-<figure/unnamed-chunk-4-1.pdf, id=1, 505.89pt x 289.08pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
+
+ []
+
+[2]
+Package color Info: Redefining color shadecolor on input line 146.
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--168
+
+ []
+
+
+Overfull \hbox (7.00966pt too wide) in paragraph at lines 169--169
+[]\OT1/cmr/bx/n/14.4 Comparison among De-part-ments and Di-vi-sions 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--177
+
+ []
+
+Package color Info: Redefining color shadecolor on input line 181.
+<figure/unnamed-chunk-4-1.pdf, id=14, 505.89pt x 289.08pt>
 File: figure/unnamed-chunk-4-1.pdf Graphic file (type pdf)
 
 <use figure/unnamed-chunk-4-1.pdf>
-Package pdftex.def Info: figure/unnamed-chunk-4-1.pdf used on input line 127.
+Package pdftex.def Info: figure/unnamed-chunk-4-1.pdf used on input line 182.
 (pdftex.def)             Requested size: 345.0pt x 197.14522pt.
 
+Underfull \hbox (badness 10000) in paragraph at lines 188--191
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+ []
 
-Package color Info: Redefining color shadecolor on input line 135.
-<figure/unnamed-chunk-5-1.pdf, id=2, 505.89pt x 289.08pt>
-File: figure/unnamed-chunk-5-1.pdf Graphic file (type pdf)
+[3 <C:/Users/daishiro/Documents/R/hutchinhillproject/vignettes/figure/unnamed-c
+hunk-4-1.pdf>]
+Package color Info: Redefining color shadecolor on input line 195.
 
-<use figure/unnamed-chunk-5-1.pdf>
-Package pdftex.def Info: figure/unnamed-chunk-5-1.pdf used on input line 136.
-(pdftex.def)             Requested size: 345.0pt x 197.14522pt.
- [1
+Underfull \hbox (badness 10000) in paragraph at lines 205--207
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+ []
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-Package color Info: Redefining color shadecolor on input line 144.
-<figure/unnamed-chunk-6-1.pdf, id=11, 505.89pt x 289.08pt>
+Package color Info: Redefining color shadecolor on input line 211.
+<figure/unnamed-chunk-6-1.pdf, id=23, 505.89pt x 289.08pt>
 File: figure/unnamed-chunk-6-1.pdf Graphic file (type pdf)
 
 <use figure/unnamed-chunk-6-1.pdf>
-Package pdftex.def Info: figure/unnamed-chunk-6-1.pdf used on input line 145.
+Package pdftex.def Info: figure/unnamed-chunk-6-1.pdf used on input line 212.
 (pdftex.def)             Requested size: 345.0pt x 197.14522pt.
 
+Underfull \hbox (badness 10000) in paragraph at lines 218--223
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+ []
 
-[2 <C:/Users/daishiro/Documents/R/hutchinhillproject/vignettes/figure/unnamed-c
-hunk-4-1.pdf>] [3 <C:/Users/daishiro/Documents/R/hutchinhillproject/vignettes/f
-igure/unnamed-chunk-5-1.pdf> <C:/Users/daishiro/Documents/R/hutchinhillproject/
-vignettes/figure/unnamed-chunk-6-1.pdf>]
+[4 <C:/Users/daishiro/Documents/R/hutchinhillproject/vignettes/figure/unnamed-c
+hunk-6-1.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 229--234
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--237
+
+ []
+
+Package color Info: Redefining color shadecolor on input line 239.
+<figure/unnamed-chunk-7-1.pdf, id=32, 505.89pt x 289.08pt>
+File: figure/unnamed-chunk-7-1.pdf Graphic file (type pdf)
+
+<use figure/unnamed-chunk-7-1.pdf>
+Package pdftex.def Info: figure/unnamed-chunk-7-1.pdf used on input line 240.
+(pdftex.def)             Requested size: 345.0pt x 197.14522pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--251
+
+ []
+
+[5 <C:/Users/daishiro/Documents/R/hutchinhillproject/vignettes/figure/unnamed-c
+hunk-7-1.pdf>] [6]
 (C:\Users\daishiro\Documents\R\hutchinhillproject\vignettes\my-vignette.aux) ) 
 Here is how much of TeX's memory you used:
- 1286 strings out of 493921
- 17758 string characters out of 3144867
- 72102 words of memory out of 3000000
- 4602 multiletter control sequences out of 15000+200000
- 6843 words of font info for 25 fonts, out of 3000000 for 9000
+ 1291 strings out of 493921
+ 17818 string characters out of 3144867
+ 71102 words of memory out of 3000000
+ 4606 multiletter control sequences out of 15000+200000
+ 7755 words of font info for 28 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 27i,7n,19p,289b,245s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,7n,19p,289b,243s stack positions out of 5000i,500n,10000p,200000b,50000s
 <
-C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on my-vignette.pdf (3 pages, 101720 bytes).
+C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:
+/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Progr
+am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on my-vignette.pdf (6 pages, 135852 bytes).
 PDF statistics:
- 49 PDF objects out of 1000 (max. 8388607)
+ 66 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

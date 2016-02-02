@@ -10,6 +10,8 @@ get_plot1()
 Prints a histogram with the divisions that the professors belong to
 }
 \examples{
+library(ggplot2)
+read_data()
 get_plot1()
 }
 

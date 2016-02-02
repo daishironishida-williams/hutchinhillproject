@@ -10,6 +10,8 @@ get_plot3()
 Prints a scatter plot of ages and the year the professor received the last degree
 }
 \examples{
+library(ggplot2)
+read_data()
 get_plot3()
 }
 

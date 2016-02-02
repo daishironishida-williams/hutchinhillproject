@@ -10,6 +10,7 @@ get_table()
 Prints out a table of all professors, ordered by age
 }
 \examples{
+read_data()
 get_table()
 }
 
