@@ -10,11 +10,15 @@ read_data <- function() {
 
   assign("allprofs", allprofs, envir = .GlobalEnv)
 
-  year_order <- order( allprofs$year_of_BA )
-  department_order <- order( allprofs$department )
-
   mean_age <- mean(ages)
-  print(mean_age)
+  deviation <- sd(ages)
+
+  assign("mean_age", mean_age, envir = .GlobalEnv)
+  assign("deviation", deviation, envir = .GlobalEnv)
+
+  cat("Mean = ", mean_age, "\n")
+  cat("Standard Deviation = ", deviation, "\n")
+
 
   assign("dep_label", c("AFR", "AMST", "ANTH", "ARAB", "ARTS", "ARTH", "ASTR", "BIOL", "CHEM", "CHIN",
                  "CLAS", "COMP", "CSCI", "DANC", "ECON", "ENGL", "ENVI", "GEOS", "GERM", "HIST",
@@ -24,9 +28,25 @@ read_data <- function() {
   assign("div_label", c("Div. I", "Div. II", "Div. III", "PE"), envir = .GlobalEnv )
 }
 
+#' Prints out a table of all professors, ordered by age
+#' @examples
+#' get_table()
+#' @export
+get_table <- function(){
+
+  year_order <- order( allprofs$year_of_BA )
+  top_five <- year_order[1:5]
+  bottom_five <- year_order[387:391]
+
+  assign("table_top", allprofs[top_five, c(2,4,3,7)], envir = .GlobalEnv)
+  assign("table_bottom", allprofs[bottom_five, c(2,4,3,7)], envir = .GlobalEnv)
+
+}
+
 #' Prints a histogram with the divisions that the professors belong to
 #' @examples
 #' get_plot1()
+#' @export
 get_plot1 <- function(){
 
   ggplot(allprofs, aes( ages ) ) + geom_histogram(
@@ -36,6 +56,7 @@ get_plot1 <- function(){
 #' Prints a graph showing age distributions in each department
 #' @examples
 #' get_plot2()
+#' @export
 get_plot2 <- function(){
   ggplot(allprofs, aes(department, ages)) + geom_boxplot() + scale_x_discrete(labels= dep_label) + theme(
     axis.text.x = element_text(angle=90, vjust=1))
@@ -44,6 +65,7 @@ get_plot2 <- function(){
 #' Prints a scatter plot of ages and the year the professor received the last degree
 #' @examples
 #' get_plot3()
+#' @export
 get_plot3 <- function(){
   ggplot(allprofs, aes( last_degree, ages )) + geom_point( aes( color = division ) ) + geom_smooth(
     aes( color= division )) + geom_abline(slope= -1, intercept= 2036 )

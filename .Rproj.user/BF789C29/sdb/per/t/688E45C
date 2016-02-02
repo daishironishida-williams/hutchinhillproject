@@ -1,0 +1,18 @@
+{
+    "contents" : "\\documentclass{article}\n\n\\begin{document}\n\n\\title{What is the Average Age of the Williams College Faculty?}\n\\author{Daishiro Nishida '18}\n\\maketitle\n\nThis paper investigates the average age of the Williams College faculty.\\\\\n\nThe average age of the Williams College faculty is 49.0 years.\n\n<<echo = FALSE>>=\nlibrary(ggplot2)\nsetwd('../')\nsource('R/main.R')\nread_data()\n@\n\nHere is the top of the table.\\\\\n\n<<echo = FALSE>>=\nget_table()\nkable(table_top, row.names = FALSE)\n@\n\\hfill\n\\\\\nFrom this it can be seen that the oldest members of the faculty are Professor Donald de B. Beaver and Professor Charles B. Dew, both in the History Department. They received their BA in the year 1958 and thus their estimated age is 78 years.\\\\\n\nNow here is the bottom of the table.\\\\\n\n<<echo = FALSE>>=\nkable(table_bottom, row.names = FALSE)\n@\n\\hfill\n\\\\\nThe youngest member of the faculty is Professor Sarah A. Mirseydi in the Art Department, who received her BA in the year 2011 and is estimated to be 25 years old.\\\\\n\nHere is a histogram.\n\n<<fig.pos=\"h\", fig.height=4, fig.cap=\"Histogram\", echo = FALSE>>=\nget_plot1()\n@\n\nNow age distributions in each department.\n<<fig.pos=\"h\", fig.height=4, fig.cap=\"Department\", echo = FALSE>>=\nget_plot2()\n@\n\nFinally scatter plot with last degree.\n<<fig.pos=\"h\", fig.height=4, fig.cap=\"Last degree\", echo = FALSE>>=\nget_plot3()\n@\n\n\\end{document}\n",
+    "created" : 1454283567522.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "495931138",
+    "id" : "688E45C",
+    "lastKnownWriteTime" : 1454431738,
+    "path" : "~/R/hutchinhillproject/vignettes/my-vignette.Rnw",
+    "project_path" : "vignettes/my-vignette.Rnw",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "type" : "sweave"
+}

@@ -1,0 +1,18 @@
+{
+    "contents" : "#' Reads the necessary data and defines variables used in later functions\n#' @examples\n#' read_data()\nread_data <- function() {\n\n  allprofs <- read.csv( file.path(\"data\",\"Data.csv\") )\n\n  ages <- 2014 - allprofs$year_of_BA + 22\n  allprofs <- cbind(allprofs, ages)\n\n  assign(\"allprofs\", allprofs, envir = .GlobalEnv)\n\n  mean_age <- mean(ages)\n  deviation <- sd(ages)\n\n  assign(\"mean_age\", mean_age, envir = .GlobalEnv)\n  assign(\"deviation\", deviation, envir = .GlobalEnv)\n\n  cat(\"Mean = \", mean_age, \"\\n\")\n  cat(\"Standard Deviation = \", deviation, \"\\n\")\n\n\n  assign(\"dep_label\", c(\"AFR\", \"AMST\", \"ANTH\", \"ARAB\", \"ARTS\", \"ARTH\", \"ASTR\", \"BIOL\", \"CHEM\", \"CHIN\",\n                 \"CLAS\", \"COMP\", \"CSCI\", \"DANC\", \"ECON\", \"ENGL\", \"ENVI\", \"GEOS\", \"GERM\", \"HIST\",\n                 \"JAPN\", \"LATS\", \"LEAD\", \"MAST\", \"MATH\", \"MUS\", \"PHIL\", \"PHED\", \"PHYS\", \"PSCI\",\n                 \"PSYC\", \"REL\", \"RL\", \"RUSS\", \"SOC\", \"STAT\", \"THEA\", \"WGSS\"), envir = .GlobalEnv )\n\n  assign(\"div_label\", c(\"Div. I\", \"Div. II\", \"Div. III\", \"PE\"), envir = .GlobalEnv )\n}\n\n#' Prints out a table of all professors, ordered by age\n#' @examples\n#' get_table()\n#' @export\nget_table <- function(){\n\n  year_order <- order( allprofs$year_of_BA )\n  top_five <- year_order[1:5]\n  bottom_five <- year_order[387:391]\n\n  assign(\"table_top\", allprofs[top_five, c(2,4,3,7)], envir = .GlobalEnv)\n  assign(\"table_bottom\", allprofs[bottom_five, c(2,4,3,7)], envir = .GlobalEnv)\n\n}\n\n#' Prints a histogram with the divisions that the professors belong to\n#' @examples\n#' get_plot1()\n#' @export\nget_plot1 <- function(){\n\n  ggplot(allprofs, aes( ages ) ) + geom_histogram(\n    binwidth = 1, aes( fill = division ) ) + scale_fill_discrete(labels= div_label)\n}\n\n#' Prints a graph showing age distributions in each department\n#' @examples\n#' get_plot2()\n#' @export\nget_plot2 <- function(){\n  ggplot(allprofs, aes(department, ages)) + geom_boxplot() + scale_x_discrete(labels= dep_label) + theme(\n    axis.text.x = element_text(angle=90, vjust=1))\n}\n\n#' Prints a scatter plot of ages and the year the professor received the last degree\n#' @examples\n#' get_plot3()\n#' @export\nget_plot3 <- function(){\n  ggplot(allprofs, aes( last_degree, ages )) + geom_point( aes( color = division ) ) + geom_smooth(\n    aes( color= division )) + geom_abline(slope= -1, intercept= 2036 )\n}\n",
+    "created" : 1454275067374.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3364313051",
+    "id" : "9C44D127",
+    "lastKnownWriteTime" : 1454432122,
+    "path" : "~/R/hutchinhillproject/R/main.R",
+    "project_path" : "R/main.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "type" : "r_source"
+}
