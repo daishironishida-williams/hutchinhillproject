@@ -3,10 +3,12 @@
 #' read_data()
 read_data <- function() {
 
-  allprofs <- read.csv("Data.csv")
+  allprofs <- read.csv( file.path("data","Data.csv") )
 
   ages <- 2014 - allprofs$year_of_BA + 22
   allprofs <- cbind(allprofs, ages)
+
+  assign("allprofs", allprofs, envir = .GlobalEnv)
 
   year_order <- order( allprofs$year_of_BA )
   department_order <- order( allprofs$department )
@@ -14,14 +16,13 @@ read_data <- function() {
   mean_age <- mean(ages)
   print(mean_age)
 
-  dep_label <- c("AFR", "AMST", "ANTH", "ARAB", "ARTS", "ARTH", "ASTR", "BIOL", "CHEM", "CHIN",
+  assign("dep_label", c("AFR", "AMST", "ANTH", "ARAB", "ARTS", "ARTH", "ASTR", "BIOL", "CHEM", "CHIN",
                  "CLAS", "COMP", "CSCI", "DANC", "ECON", "ENGL", "ENVI", "GEOS", "GERM", "HIST",
                  "JAPN", "LATS", "LEAD", "MAST", "MATH", "MUS", "PHIL", "PHED", "PHYS", "PSCI",
-                 "PSYC", "REL", "RL", "RUSS", "SOC", "STAT", "THEA", "WGSS")
+                 "PSYC", "REL", "RL", "RUSS", "SOC", "STAT", "THEA", "WGSS"), envir = .GlobalEnv )
 
-  div_label <- c("Div. I", "Div. II", "Div. III", "PE")
+  assign("div_label", c("Div. I", "Div. II", "Div. III", "PE"), envir = .GlobalEnv )
 }
-
 
 #' Prints a histogram with the divisions that the professors belong to
 #' @examples

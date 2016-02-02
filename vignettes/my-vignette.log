@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.16)  31 JAN 2016 18:51
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.16)  1 FEB 2016 20:16
 entering extended mode
 **my-vignette.tex
 (C:\Users\daishiro\Documents\R\hutchinhillproject\vignettes\my-vignette.tex
@@ -114,35 +114,44 @@ LaTeX Font Info:    ... okay on input line 52.
 \everyMPtoPDFconversion=\toks16
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 58.
+(Font)              <12> on input line 56.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 58.
+(Font)              <8> on input line 56.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 58.
+(Font)              <6> on input line 56.
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  []
 
-[1
+Package color Info: Redefining color shadecolor on input line 66.
+<figure/unnamed-chunk-1-1.pdf, id=1, 505.89pt x 289.08pt>
+File: figure/unnamed-chunk-1-1.pdf Graphic file (type pdf)
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+<use figure/unnamed-chunk-1-1.pdf>
+Package pdftex.def Info: figure/unnamed-chunk-1-1.pdf used on input line 71.
+(pdftex.def)             Requested size: 345.0pt x 197.14522pt.
+ [1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/daishiro/Documen
+ts/R/hutchinhillproject/vignettes/figure/unnamed-chunk-1-1.pdf>]
 (C:\Users\daishiro\Documents\R\hutchinhillproject\vignettes\my-vignette.aux) ) 
 Here is how much of TeX's memory you used:
- 1260 strings out of 493921
- 17155 string characters out of 3144867
- 67078 words of memory out of 3000000
- 4582 multiletter control sequences out of 15000+200000
- 6675 words of font info for 24 fonts, out of 3000000 for 9000
+ 1271 strings out of 493921
+ 17366 string characters out of 3144867
+ 68086 words of memory out of 3000000
+ 4589 multiletter control sequences out of 15000+200000
+ 6843 words of font info for 25 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 27i,6n,19p,289b,187s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,6n,19p,289b,243s stack positions out of 5000i,500n,10000p,200000b,50000s
 <
 C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/
 Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on my-vignette.pdf (1 page, 44290 bytes).
+gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on my-vignette.pdf (1 page, 59584 bytes).
 PDF statistics:
- 18 PDF objects out of 1000 (max. 8388607)
+ 28 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
