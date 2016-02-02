@@ -1,6 +1,7 @@
 #' Reads the necessary data and defines variables used in later functions
 #' @examples
 #' read_data()
+#' @export
 read_data <- function() {
 
   allprofs <- read.csv( file.path("data","Data.csv") )
