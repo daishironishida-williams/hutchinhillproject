@@ -6,12 +6,12 @@
     "folds" : "",
     "hash" : "4071637371",
     "id" : "C9F2F984",
-    "lastKnownWriteTime" : 1454457895,
+    "lastKnownWriteTime" : 1454475796,
     "path" : "~/R/hutchinhillproject/tests/testthat.R",
     "project_path" : "tests/testthat.R",
     "properties" : {
     },
-    "relative_order" : 5,
+    "relative_order" : 4,
     "source_on_save" : false,
     "type" : "r_source"
 }
