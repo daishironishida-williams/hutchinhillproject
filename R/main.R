@@ -4,7 +4,7 @@
 #' @export
 read_data <- function() {
 
-  data( allprofs )
+  allprofs <- data( allprofs )
 
   ages <- 2014 - allprofs$year_of_BA + 22
   allprofs <- cbind(allprofs, ages)
