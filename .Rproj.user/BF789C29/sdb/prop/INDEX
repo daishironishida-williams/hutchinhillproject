@@ -32,6 +32,8 @@
 ~%2FR%2Fhutchinhillproject%2Fman%2Fread_data.Rd="87B2C64"
 ~%2FR%2Fhutchinhillproject%2Ftests%2Ftestthat%2Fget_mean_output.R="853DC"
 ~%2FR%2Fhutchinhillproject%2Ftests%2Ftestthat%2Fread_data_output.R="50F5D565"
+~%2FR%2Fhutchinhillproject%2Ftests%2Ftestthat%2Ftest_analyse_data_output.R="2EB8B5F"
+~%2FR%2Fhutchinhillproject%2Ftests%2Ftestthat%2Ftest_get_mean_output.R="DE10E5FF"
 ~%2FR%2Fhutchinhillproject%2Ftests%2Ftestthat.R="BF71737D"
 ~%2FR%2Fhutchinhillproject%2Fvignettes%2Fmy-vignette.Rmd="4B5ED1A0"
 ~%2FR%2Fhutchinhillproject%2Fvignettes%2Fmy-vignette.Rnw="75A7B24"

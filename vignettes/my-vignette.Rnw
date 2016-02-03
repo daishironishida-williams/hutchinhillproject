@@ -52,7 +52,7 @@ yields the estimated mean age of all professors at Williams College.
 library(knitr)
 library(ggplot2)
 setwd('../')
-source('R/main.R')
+library(hutchinhillproject)
 data(allprofs)
 analyse_data(allprofs)
 @
