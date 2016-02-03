@@ -53,7 +53,8 @@ library(knitr)
 library(ggplot2)
 setwd('../')
 source('R/main.R')
-read_data()
+data(allprofs)
+analyse_data(allprofs)
 @
 
 Thus the average age of the Williams College faculty is 49.0 years, with a standard deviation of 12 years.

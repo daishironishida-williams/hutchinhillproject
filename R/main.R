@@ -2,14 +2,14 @@
 #' @examples
 #' read_data()
 #' @export
-read_data <- function() {
+analyse_data <- function( profs_data ) {
 
-  allprofs <- data( allprofs )
+  data_of_profs <- profs_data
 
-  ages <- 2014 - allprofs$year_of_BA + 22
-  allprofs <- cbind(allprofs, ages)
+  ages <- 2014 - data_of_profs$year_of_BA + 22
+  data_of_profs <- cbind(data_of_profs, ages)
 
-  assign("allprofs", allprofs, envir = .GlobalEnv)
+  assign("data_of_profs", data_of_profs, envir = .GlobalEnv)
 
   mean_age <- mean(ages)
   deviation <- sd(ages)
@@ -36,12 +36,12 @@ read_data <- function() {
 #' @export
 get_table <- function(){
 
-  year_order <- order( allprofs$year_of_BA )
+  year_order <- order( data_of_profs$year_of_BA )
   top_five <- year_order[1:5]
   bottom_five <- year_order[387:391]
 
-  assign("table_top", allprofs[top_five, c(2,4,3,7)], envir = .GlobalEnv)
-  assign("table_bottom", allprofs[bottom_five, c(2,4,3,7)], envir = .GlobalEnv)
+  assign("table_top", data_of_profs[top_five, c(2,4,3,7)], envir = .GlobalEnv)
+  assign("table_bottom", data_of_profs[bottom_five, c(2,4,3,7)], envir = .GlobalEnv)
 
 }
 
@@ -53,24 +53,24 @@ get_table <- function(){
 #' @export
 get_mean <- function() {
 
-  div1_profs <- allprofs[allprofs$division == " 1",]
-  div2_profs <- allprofs[allprofs$division == " 2",]
-  div3_profs <- allprofs[allprofs$division == " 3",]
-  pe_profs <- allprofs[allprofs$division == " PE",]
+  div1_profs <- data_of_profs[data_of_profs$division == " 1",]
+  div2_profs <- data_of_profs[data_of_profs$division == " 2",]
+  div3_profs <- data_of_profs[data_of_profs$division == " 3",]
+  pe_profs <- data_of_profs[data_of_profs$division == " PE",]
 
-  div1_mean <- mean( div1_profs$age )
+  div1_mean <- mean( div1_profs$ages )
   assign("div1_mean", div1_mean, envir = .GlobalEnv)
   cat("Div.I Mean = ", div1_mean, "\n")
 
-  div2_mean <- mean( div2_profs$age )
+  div2_mean <- mean( div2_profs$ages )
   assign("div2_mean", div2_mean, envir = .GlobalEnv)
   cat("Div.II Mean = ", div2_mean, "\n")
 
-  div3_mean <- mean( div3_profs$age )
+  div3_mean <- mean( div3_profs$ages )
   assign("div3_mean", div3_mean, envir = .GlobalEnv)
   cat("Div.III Mean = ", div3_mean, "\n")
 
-  pe_mean <- mean( pe_profs$age )
+  pe_mean <- mean( pe_profs$ages )
   assign("pe_mean", pe_mean, envir = .GlobalEnv)
   cat("PE Mean = ", pe_mean, "\n")
 
@@ -84,7 +84,7 @@ get_mean <- function() {
 #' @export
 get_plot1 <- function(){
 
-  ggplot(allprofs, aes( ages ) ) + geom_histogram(
+  ggplot(data_of_profs, aes( ages ) ) + geom_histogram(
     binwidth = 1, aes( fill = division ) ) + scale_fill_discrete(labels= div_label)
 }
 
@@ -95,7 +95,7 @@ get_plot1 <- function(){
 #' get_plot2()
 #' @export
 get_plot2 <- function(){
-  ggplot(allprofs, aes(department, ages)) + geom_boxplot( aes( fill = division ) ) + scale_x_discrete(
+  ggplot(data_of_profs, aes(department, ages)) + geom_boxplot( aes( fill = division ) ) + scale_x_discrete(
     labels= dep_label) + theme( axis.text.x = element_text(angle=90, vjust=1))
 }
 
@@ -106,6 +106,6 @@ get_plot2 <- function(){
 #' get_plot3()
 #' @export
 get_plot3 <- function(){
-  ggplot(allprofs, aes( last_degree, ages )) + geom_point( aes( color = division ) ) + geom_smooth(
+  ggplot(data_of_profs, aes( last_degree, ages )) + geom_point( aes( color = division ) ) + geom_smooth(
     aes( color= division )) + geom_abline(slope= -1, intercept= 2036 )
 }
