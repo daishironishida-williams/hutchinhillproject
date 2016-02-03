@@ -4,7 +4,7 @@
 #' @export
 read_data <- function() {
 
-  allprofs <- read.csv( file.path("data","data.csv") )
+  allprofs <- read.csv( file.path("R","sysdata.rda") )
 
   ages <- 2014 - allprofs$year_of_BA + 22
   allprofs <- cbind(allprofs, ages)
